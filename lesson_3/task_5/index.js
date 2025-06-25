@@ -5,13 +5,17 @@ if (false) {
 	console.log("I'm not in");
 }
 
-if (null) {
+if ('text') {
 	console.log("Yes");
-} else {
-	console.log("Else");
 }
 
-let age = 17;
+if (null) {
+	console.log('Yes')
+} else {
+	console.log('Else');
+}
+
+let age = 55;
 if (age < 16) {
 	console.log("Too young");
 } else if (age >= 16 && age < 18) {
