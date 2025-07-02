@@ -1,27 +1,9 @@
-if (true) {
-	console.log("I'm in");
-}
-if (false) {
-	console.log("I'm not in");
-}
+const n = 100;
+let sum = 0;
+let i = 0;
 
-if (null) {
-	console.log("Yes");
-} else {
-	console.log("Else");
+while (i <= n) {
+    sum += i;
+    i += 1;
 }
-
-let age = 17;
-if (age < 16) {
-	console.log("Too young");
-} else if (age >= 16 && age < 18) {
-	console.log("Almost ready");
-} else if (age >= 18 && age < 65) {
-	console.log("Ready");
-} else {
-	console.log("Else");
-}
-
-let amount = 1;
-const result = (amount > 17) ? "full" : "empty";
-console.log(result);
+console.log('Result: ' + sum);
